@@ -1,0 +1,88 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+a {
+  color: orange;
+}
+a:hover {
+  color: black;
+}
+
+#demo {
+  padding: 80px;
+}
+#demo .chat {
+  width: 460px;
+  border-radius: 13px;
+  border: 20px solid #e8e7f8;
+  background-color: #e8e7f8;
+  margin-bottom: 30px;
+}
+#demo .chat .message {
+  height: 210px;
+  border-radius: 13px;
+  background-color: white;
+  padding: 10px;
+}
+#demo .chat .message .line {
+  background-color: #7490f3;
+  border-radius: 20px;
+  word-wrap: break-word;
+  width: 55px;
+  margin-bottom: 10px;
+}
+#demo .chat .message .line h3 {
+  color: white;
+  padding: 8px;
+}
+#demo .chat .message .end {
+  margin-left: 340px;
+}
+#demo .chat .message {
+  overflow: auto;
+}
+#demo .chat .message::-webkit-scrollbar {
+  width: 5px;
+}
+#demo .chat .message::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+#demo .chat .message::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+#demo .chat .message::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+#demo .text {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+#demo .text input {
+  border-radius: 20px;
+  margin-right: 10px;
+}
+#demo .text .sent {
+  background-color: #7490f3;
+  border-radius: 20px;
+}
+#demo .text .sent h3 {
+  color: white;
+  padding: 8px 18px;
+}
+@media screen and (max-width: 300px) {
+  #demo .chat {
+    width: 280px;
+    height: 260px;
+  }
+  #demo .chat .message {
+    width: 240px;
+    height: 170px;
+  }
+  #demo .chat input {
+    padding: 0 0 0 10px;
+  }
+}/*# sourceMappingURL=style.css.map */

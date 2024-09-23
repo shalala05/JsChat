@@ -1,0 +1,57 @@
+#demo
+    padding: 80px
+    .chat
+        width: 460px
+        border-radius: 13px
+        border: 20px solid #e8e7f8
+        background-color: #e8e7f8
+        margin-bottom: 30px
+        .message
+            height: 210px
+            border-radius: 13px
+            background-color: #ffff
+            padding: 10px
+            .line
+                background-color: #7490f3
+                border-radius: 20px
+                word-wrap: break-word
+                width: 55px
+                margin-bottom: 10px
+                h3
+                    color: #ffff
+                    padding: 8px
+            .end
+                margin-left: 340px
+        .message
+            overflow: auto
+        .message::-webkit-scrollbar
+            width: 5px
+        .message::-webkit-scrollbar-track
+            background: #f1f1f1
+        .message::-webkit-scrollbar-thumb
+            background: #888
+            border-radius: 5px
+        .message::-webkit-scrollbar-thumb:hover
+            background: #555
+    .text
+        display: flex
+        justify-content: center
+        margin-top: 20px
+        input
+            border-radius: 20px
+            margin-right: 10px
+        .sent
+            background-color: #7490f3
+            border-radius: 20px
+            h3
+                color: #ffff
+                padding: 8px 18px
+    @media screen and ( max-width: 300px )
+        .chat
+            width: 280px
+            height: 260px
+            .message
+                width: 240px
+                height: 170px
+            input
+                padding: 0 0 0 10px
