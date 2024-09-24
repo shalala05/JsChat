@@ -12,27 +12,27 @@
             background-color: #ffff
             padding: 10px
             .line
+                display: inline-block
                 background-color: #7490f3
                 border-radius: 20px
                 word-wrap: break-word
-                width: 55px
+                max-width: 100%
+                margin: 0
                 margin-bottom: 10px
                 h3
                     color: #ffff
                     padding: 8px
             .end
-                margin-left: 340px
+                display: flex
+                justify-content: flex-end
+                .line
+                    display: inline-block
+                    word-wrap: break-word
+                    max-width: 100%
+        .message::-webkit-scrollbar
+            display: none
         .message
             overflow: auto
-        .message::-webkit-scrollbar
-            width: 5px
-        .message::-webkit-scrollbar-track
-            background: #f1f1f1
-        .message::-webkit-scrollbar-thumb
-            background: #888
-            border-radius: 5px
-        .message::-webkit-scrollbar-thumb:hover
-            background: #555
     .text
         display: flex
         justify-content: center
