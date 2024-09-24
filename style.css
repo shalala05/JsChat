@@ -14,14 +14,14 @@ a:hover {
   padding: 80px;
 }
 #demo .chat {
-  width: 460px;
+  width: 458px;
   border-radius: 13px;
-  border: 20px solid #e8e7f8;
+  border: 22px solid #e8e7f8;
   background-color: #e8e7f8;
   margin-bottom: 30px;
 }
 #demo .chat .message {
-  height: 210px;
+  height: 216px;
   border-radius: 13px;
   background-color: white;
   padding: 10px;
@@ -37,7 +37,7 @@ a:hover {
 }
 #demo .chat .message .line h3 {
   color: white;
-  padding: 8px;
+  padding: 8px 6px;
 }
 #demo .chat .message .end {
   display: flex;
@@ -62,6 +62,7 @@ a:hover {
 #demo .text input {
   border-radius: 20px;
   margin-right: 10px;
+  padding: 2px 3px;
 }
 #demo .text .sent {
   background-color: #7490f3;
