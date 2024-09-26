@@ -31,7 +31,7 @@ a:hover {
   background-color: #7490f3;
   border-radius: 20px;
   word-wrap: break-word;
-  max-width: 100%;
+  max-width: 80%;
   margin: 0;
   margin-bottom: 10px;
 }
@@ -46,7 +46,7 @@ a:hover {
 #demo .chat .message .end .line {
   display: inline-block;
   word-wrap: break-word;
-  max-width: 100%;
+  max-width: 80%;
 }
 #demo .chat .message::-webkit-scrollbar {
   display: none;
@@ -62,7 +62,7 @@ a:hover {
 #demo .text input {
   border-radius: 20px;
   margin-right: 10px;
-  padding: 2px 3px;
+  padding: 2px 12px;
 }
 #demo .text .sent {
   background-color: #7490f3;
