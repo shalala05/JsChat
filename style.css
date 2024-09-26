@@ -74,14 +74,21 @@ a:hover {
 }
 @media screen and (max-width: 300px) {
   #demo .chat {
-    width: 280px;
-    height: 260px;
+    width: 285px;
+    height: 263px;
   }
   #demo .chat .message {
     width: 240px;
     height: 170px;
   }
   #demo .chat input {
-    padding: 0 0 0 10px;
+    padding: 0 10px;
+    width: 135px;
+  }
+  #demo .chat .sent h3 {
+    padding: 8px 16px;
+  }
+  #demo .chat .line {
+    max-width: 50%;
   }
 }/*# sourceMappingURL=style.css.map */
