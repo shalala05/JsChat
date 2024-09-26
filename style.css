@@ -72,7 +72,7 @@ a:hover {
   color: white;
   padding: 8px 18px;
 }
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 476px) {
   #demo .chat {
     width: 285px;
     height: 263px;
