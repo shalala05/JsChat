@@ -31,7 +31,7 @@ a:hover {
   background-color: #7490f3;
   border-radius: 20px;
   word-wrap: break-word;
-  max-width: 80%;
+  max-width: 70%;
   margin: 0;
   margin-bottom: 10px;
 }
@@ -46,7 +46,7 @@ a:hover {
 #demo .chat .message .end .line {
   display: inline-block;
   word-wrap: break-word;
-  max-width: 80%;
+  max-width: 70%;
 }
 #demo .chat .message::-webkit-scrollbar {
   display: none;
@@ -87,8 +87,5 @@ a:hover {
   }
   #demo .chat .sent h3 {
     padding: 8px 16px;
-  }
-  #demo .chat .line {
-    max-width: 50%;
   }
 }/*# sourceMappingURL=style.css.map */
